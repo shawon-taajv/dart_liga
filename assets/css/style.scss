@@ -1,0 +1,24 @@
+$accordion-button-active-bg:    #34994e ;
+$accordion-button-active-color: #fff;
+$accordion-padding-y:           0.80rem;
+$input-font-size:               0.80rem;
+$input-btn-padding-y:           0.275rem;
+$input-btn-padding-x:           0.75rem;
+$shadow-border-radius:          0.75rem;
+$utilities: (
+    "shadow": (
+        property: border-radius,
+        class: rounded,
+        values: (
+            3: $shadow-border-radius
+        )
+    ),
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/_accordion";
+@import "../node_modules/bootstrap/scss/forms/form-check";
+@import "../node_modules/bootstrap/scss/_buttons";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/_utilities";
